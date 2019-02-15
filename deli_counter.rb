@@ -2,7 +2,8 @@
 def line(katz_deli)
   if katz_deli.length == 0 
     puts "The line is currently empty."
-  elsif 
+  elsif katz_deli.length > 0 
+    
 end
 
 def take_a_number(katz_deli, new_customer)
