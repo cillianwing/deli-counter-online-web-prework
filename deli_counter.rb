@@ -8,6 +8,7 @@ def line(katz_deli)
       line_str += "#{index + 1}. #{name}"
     end
   end
+  line_str
 end
 
 def take_a_number(katz_deli, new_customer)
